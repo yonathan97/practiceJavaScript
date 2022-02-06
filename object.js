@@ -6,5 +6,9 @@ var Man =
 }
 
 var person = Man.name;
-
-console.log(person);
+Man.name = "Dawit";
+Man.brother =1;
+var good = "";
+delete Man.age;
+Man[good] = "very";
+console.log(Man);
