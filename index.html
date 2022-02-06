@@ -1,0 +1,127 @@
+<script>
+    console.log ("hello world")
+    var String  = "tonatj";
+    const pi = 3.24;
+    console.log(pi);
+    console.log(String);
+    var a;
+    var b=2;
+    a=7;
+    b=a;
+    console.log(b);
+    
+var ourString ="test";
+ ourString +="one";
+ console.log(ourString);
+
+ var name = "Yonathan";
+ console.log("this is my name" + name + " Simachew");
+ function Addition (a,b)
+{
+    var addition = a +b;
+    return addition;
+}
+function Subtraction (a,b)
+{
+    var addition = a -b;
+    return addition;
+}
+function Multiply (a,b)
+{
+    var addition = a *b;
+    return addition;
+}
+
+ console.log (Addition(10,20)); 
+ console.log(Subtraction(10,20)); 
+ console.log(Multiply(20,30));
+
+
+
+ // how to know the length
+ var nameLength=0;
+ var firstname = "Yonathan";
+ nameLength= firstname.length;
+ console.log(nameLength);
+
+ // how do I specify to pick the first word
+ var firstNameArray ="Dawit";
+ var name= firstNameArray[0];
+
+ console.log(name);
+for(var i; i<0; i++)
+{
+    
+    console.log(name[i]);
+    i++;
+}
+
+var thing = "thing_one";
+var thingLength = thing[thing.length-2];
+console.log(thingLength);
+
+
+// creating functions
+
+function WorldBank(DogName, Nickname)
+{
+
+
+var result="This is my dog name "+ DogName+ " and we call him " + Nickname+ " boy";
+return result;
+
+}
+
+console.log(WorldBank("Tommmy","Monkey"));
+
+
+//Single Array
+var arrayOne = ["JOhn", 23]
+//Nested array
+var nestedArray = [["yonathan",21], ["Dawit", 25]];
+
+//var arrayOne = [50,60,70];
+
+var myarray = arrayOne[0];
+console.log(myarray);
+
+//change an array
+
+var changeArray = [30,40,50];
+changeArray[0] = 66;
+console.log(changeArray);
+
+
+var accessMultipleArray = [[1,2,3],[4,5,6],[7,8,9],[10,11,12]];
+
+mydate =accessMultipleArray[3][2];
+console.log(mydate);
+var datatwo = accessMultipleArray[0][2];
+console.log(datatwo);
+changeArray.push(["yonathan", 24]);
+console.log(changeArray);
+
+changeArray.pop();
+console.log(changeArray);
+
+
+
+
+// Shift and Unshift
+var mainArray = [10,20,30,40];
+shiftedArray = mainArray.shift();
+console.log(mainArray);
+var UnshiftedArray = mainArray.unshift("Yonthan");
+console.log(UnshiftedArray);
+
+function Repeat ()
+{
+    console.log("this is fucntion ");
+
+}
+
+Repeat();
+
+
+
+</script>
